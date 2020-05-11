@@ -1,0 +1,12 @@
+package service;
+
+import java.util.Hashtable;
+import org.springframework.stereotype.Service;
+import model.Product;
+
+@Service
+public class ProductService {
+	
+	Hashtable<String, Product> products = new Hashtable<String, Product>();
+
+}
